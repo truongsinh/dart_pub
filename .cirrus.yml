@@ -1,7 +1,12 @@
 container:
   image: cirrusci/flutter:latest
 
-test_task:
+pub_task:
   test_script:
   - pub cache repair
   - pub get
+
+flutter_task:
+  test_script:
+  - pub cache repair
+  - flutter packages get

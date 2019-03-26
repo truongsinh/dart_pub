@@ -1,8 +1,11 @@
 # daily build
 language: dart
+env:
+  - INSTALL_SCRIPT="flutter packages"
+  - TEST_SUITE=pub
 dart:
   - dev
   - stable
 script:
   - pub cache repair
-  - pub get
+  - "$INSTALL_SCRIPT get"
