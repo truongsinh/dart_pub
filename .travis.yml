@@ -2,7 +2,7 @@
 language: dart
 env:
   - INSTALL_SCRIPT="flutter packages"
-  - TEST_SUITE=pub
+  - INSTALL_SCRIPT=pub
 dart:
   - dev
   - stable
