@@ -1,6 +1,8 @@
 # daily build
-os:
-  - linux
+language: dart
+dart:
+  - dev
+  - stable
 sudo: false
 addons:
   apt:
