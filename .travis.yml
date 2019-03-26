@@ -17,4 +17,4 @@ before_script:
   - ./flutter/bin/flutter doctor
 script:
   - pub cache repair
-  - flutter packages get
+  - ./flutter/bin/flutter packages get
