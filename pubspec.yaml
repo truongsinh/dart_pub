@@ -9,3 +9,4 @@ dependencies:
   uuid_enhanced: any
   perfectionist: any
   graphql_client: any
+  bluetooth: any
